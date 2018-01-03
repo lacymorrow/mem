@@ -1,0 +1,31 @@
+{
+  "name": "mem",
+  "version": "1.0.0",
+  "description": "An interface to record and organize your personal memories.",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lacymorrow/mem.git"
+  },
+  "keywords": [
+    "memory",
+    "manager",
+    "organization",
+    "utilities",
+    "cloud"
+  ],
+  "author": "Lacy Morrow <me@lacymorrow.com> (http://lacymorrow.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lacymorrow/mem/issues"
+  },
+  "homepage": "https://github.com/lacymorrow/mem#readme",
+  "dependencies": {
+    "next": "^4.2.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  }
+}
