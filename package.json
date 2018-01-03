@@ -4,6 +4,7 @@
   "description": "An interface to record and organize your personal memories.",
   "main": "index.js",
   "scripts": {
+    "dev": "next",
     "test": "grunt test"
   },
   "repository": {
@@ -24,8 +25,10 @@
   },
   "homepage": "https://github.com/lacymorrow/mem#readme",
   "dependencies": {
+    "msr": "^1.3.4",
     "next": "^4.2.1",
     "react": "^16.2.0",
-    "react-dom": "^16.2.0"
+    "react-dom": "^16.2.0",
+    "videojs-record": "^2.0.5"
   }
 }
