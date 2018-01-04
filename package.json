@@ -29,6 +29,7 @@
     "next": "^4.2.1",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
+    "video.js": "^6.4.0",
     "videojs-record": "^2.0.5"
   }
 }
