@@ -7,20 +7,19 @@ const h1Style = {
 }
 
 
-const Table = () => {
+const Table = (props) => {
 
   return (  
     <div>
-      <h1 style={h1Style}>Saved Memories</h1>
+      <h1 style={h1Style} >Saved Memories</h1>
       <div className="tbl-header">
         <table cellPadding="0" cellSpacing="0" border="0">
           <thead>
             <tr>
-              <th>Code</th>
-              <th>Company</th>
-              <th>Price</th>
-              <th>Change</th>
-              <th>Change %</th>
+              <th>Thumbnail</th>
+              <th>Title</th>
+              <th>Notes</th>
+              <th>Date</th>
             </tr>
           </thead>
         </table>
@@ -29,11 +28,12 @@ const Table = () => {
         <table cellPadding="0" cellSpacing="0" border="0">
           <tbody>
             <tr>
-              <td>AAC</td>
-              <td>AUSTRALIAN COMPANY </td>
-              <td>$1.38</td>
-              <td>+2.01</td>
-              <td>-0.36%</td>
+              <td>
+                <img src="https://picsum.photos/g/300/200" alt="thumbnail" />
+              </td>
+              <td>My First Memory</td>
+              <td>notes about my first memory.</td>
+              <td>January 1, 2018</td>
             </tr>
           </tbody>
         </table>

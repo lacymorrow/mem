@@ -1,25 +1,20 @@
-import vjs from 'video.js'
+// import vjs from 'video.js'
 // import vjsr from 'videojs-record'
+// import { Player } from 'video-react';
 
-const Record = () => {
-	function onComponentDidMount() {
-		const MediaStreamRecorder = require('msr');
-		console.log('require-msr', MediaStreamRecorder);
+class Record extends React.Component {
+	constructor(props){
+	    super(props);
+	    this.state = {};
+	  }
 
-		console.log('\n\n-------\n\n');
-
-		var recorder = new MediaStreamRecorder({});
-		console.log('MediaStreamRecorder', recorder);
-
-		console.log('\n\n-------\n\n');
-
-		var multiStreamRecorder = new MediaStreamRecorder.MultiStreamRecorder([]);
-		console.log('MultiStreamRecorder', multiStreamRecorder);
+	render (){
+		return (
+			<div>
+				<button id="btn-record">Record</button>
+			</div>
+		)
 	}
-
-	return (
-		<button id="btn-record">Record</button>
-	)
 }
 
 export default Record
