@@ -1,17 +1,20 @@
 import Link from 'next/link'
 
 
-const linkStyle = {
-  marginRight: 15
+const sx = {
+	link: {
+	  marginRight: 15,
+	  color: 'white'
+	}
 }
 
 const Header = () => (
   <div>
     <Link href="/">
-      <a style={linkStyle}>Home</a>
+      <a style={sx.link}>Home</a>
     </Link>
     <Link href="/about">
-      <a style={linkStyle}>About</a>
+      <a style={sx.link}>About</a>
     </Link>
   </div>
 )
