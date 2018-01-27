@@ -25,7 +25,7 @@
   },
   "homepage": "https://github.com/lacymorrow/mem#readme",
   "dependencies": {
-    "next": "^4.2.1",
+    "next": "^4.2.3",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "recordrtc": "^5.4.6",
